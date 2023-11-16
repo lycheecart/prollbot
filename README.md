@@ -1,5 +1,5 @@
-Handles die roll strings on twitch. Supports penetrating dice, which are like exploding dice except 1 is subtracted from the explosions. (Used in kenzerco games; https://kenzerco.com/product
--category/hackmaster/)  
+Handles die roll strings on twitch. Supports penetrating dice, which are like exploding dice except 1 is subtracted from the explosions. 
+(Used in kenzerco games; https://kenzerco.com/product-category/hackmaster/)  
 
   
 Builds rolls out of a XdY string  
