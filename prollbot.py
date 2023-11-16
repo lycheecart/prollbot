@@ -124,6 +124,7 @@ class ProllBot(commands.Bot):
         super().__init__(token=TOKEN, prefix='!', initial_channels=[""])
     async def event_ready(self):
         print (f"logged in as | {self.nick}")
+    @commands.cooldown(rate=20, per=25, bucket=commands.Bucket.channel)
     @commands.command()
     async def roll(self, ctx: commands.Context, *,  dieString: str) -> None:
         if dieString.strip().replace(" ", "") != "":
