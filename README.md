@@ -16,7 +16,7 @@ You can set your OAuth Redirect URL to http://localhost:3000 if nothing is liste
   
 Get the twitch CLI and 'configure' it. The scope string has to include "chat:read chat:edit"  
 https://dev.twitch.tv/docs/cli/  
-need://dev.twitch.tv/docs/cli/configure-command/  
+https://dev.twitch.tv/docs/cli/configure-command/  
 
 There is a guide for doing this that you can follow basically straightforwardly.  
 https://dev.twitch.tv/docs/authentication/register-app/  
